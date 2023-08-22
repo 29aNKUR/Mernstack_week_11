@@ -9,7 +9,7 @@ export default function SignupPage(){
                     password
                 });
                 localStorage.setItem("token" , response.data.token);
-                alert("Signed up successfully")
+                alert("Signed up successfully");
             }}/>
         </div>
 }
